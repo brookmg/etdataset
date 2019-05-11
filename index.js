@@ -29,4 +29,7 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.send(look_away))
   .get('/fetch', (req, res) => getAllDataJSON("ethiopia", data => res.send(data)))
+  .get('/country', (req, res) => { 
+    getAllDataJSON(req.query.id, data => res.send(data))
+  })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
