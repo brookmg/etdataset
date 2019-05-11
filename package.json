@@ -1,0 +1,23 @@
+{
+  "name": "etdatasource",
+  "version": "1.0.0",
+  "description": "Hackathon backend api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethiopia",
+    "hackathon",
+    "data-source",
+    "api",
+    "country.io"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4"
+  }
+}
